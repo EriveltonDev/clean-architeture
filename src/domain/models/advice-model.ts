@@ -1,6 +1,6 @@
 export type AdviceModel = {
-  message: {
-    type: string;
-    text: string;
+  slip: {
+    id: number;
+    advice: string;
   };
 };
